@@ -1,0 +1,162 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Merdekabot di sini. Selamat datang di Portal Unit Layanan Terpadu, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi. Bagaimana Saya bisa membantu anda?"
+      ]
+    },
+    {
+      "tag": "penjelasan_merdekabot",
+      "patterns": [
+        "Apa itu MerdekaBot?"
+      ],
+      "responses": [
+        "MerdekaBot adalah sistem layanan informasi publik dan pengaduan online rakyat. MerdekaBot merupakan kanal pengaduan milik Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi."
+      ]
+    },
+    {
+      "tag": "tujuan_merdekabot",
+      "patterns": [
+        "Apa tujuan diciptakannya MerdekaBot?"
+      ],
+      "responses": [
+        "MerdekaBot diciptakan sebagai saran layanan masyarakat untuk dapat menyampaikan permohonan informasi, pengaduan, berkonsultasi, serta memberikan saran dan masukan dengan nyaman dalam menangani permasalahan pada bidang pendidikan dan memperoleh kepastian mendapatkan tanggapan yang baik dan profesional."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "persyaratan_untuk_melapor",
+      "patterns": [
+        "Apa persyaratan untuk melapor?"
+      ],
+      "responses": [
+        "Untuk melapor, pelapor diharuskan untuk mengisi formulir. Formulir bisa didownload disini https://urlis.net/g44jc."
+      ]
+    },
+    {
+      "tag": "persyaratan_untuk_melapor_no1",
+      "patterns": [
+        "Apakah identitas pelapor akan dilindungi?"
+      ],
+      "responses": [
+        "Identitas pelapor atau pengadu dijamin kerahasiaannya sesuai ketentuan perundang-undangan."
+      ]
+    },
+    {
+      "tag": "persyaratan_untuk_melapor_no2",
+      "patterns": [
+        "Apakah pelapor atau pengadu dipungut biaya?"
+      ],
+      "responses": [
+        "Pelapor atau pengadu tidak dipungut biaya, namun jika ada dokumen yang harus di foto copy dan penggandaan CD dibebankan kepada pelapor atau pengadu."
+      ]
+    },
+    {
+      "tag": "persyaratan_untuk_melapor_no3",
+      "patterns": [
+        "Bagaimana prosedur setelah mengisi formulir?"
+      ],
+      "responses": [
+        "Laporan pengaduan dapat disampaikan langsung ke ULT adapun alamatnya Gedung C Lt.1, Jl. Jenderal Sudirman, Senayan, Jakarta Pusat. Untuk pengiriman secara tidak langsung bisa melalui telepon, email, surat, dan laman kemdikbud.lapor.go.id"
+      ]
+    },
+    {
+      "tag": "persyaratan_untuk_melapor_no4",
+      "patterns": [
+        "Bagaimana persyaratan pengajuan lebih lengkapnya?",
+        "Apakah terdapat laman prosedur pengaduan?"
+      ],
+      "responses": [
+        "Untuk lebih lengkapnya silahkan kunjungi laman http://ult.kemdikbud.go.id/"
+      ]
+    },
+    {
+      "tag": "persyaratan_untuk_melapor_no5",
+      "patterns": [
+        "Bagaimana Prosedur laporan pengaduan secara langsung?"
+      ],
+      "responses": [
+        "Untuk pelapor yang datang langsung ke ULT harus mendaftarkan diri kepada petugas yang memberikan nomor antrian. Petugas akan memberikan nomor antrian dan formulir untuk diisi, kemudian pelapor akan diarahkan menuju tempat duduk tunggu yang sudah ditentukan sesuai dengan loket layanan yang diminta. Petugas loket akan memanggil sesuai nomor urut antrian pengunjung lalu pelapor menyerahkan nomor antrian dan formulir yang sudah diisi lengkap."
+      ]
+    },
+    {
+      "tag": "kelengkapan_melapor",
+      "patterns": [
+        "Dokumen apa saja yang harus disertakan bersama formulir?"
+      ],
+      "responses": [
+        "1. Formulir pengaduan yang telah diisi lengkap",
+        "2. Identitas diri(KTP/SIM)",
+        "3. Tempat dan waktu pelanggaran",
+        "4. Bentuk pelanggaran yang terjadi",
+        "5. Identitas pelaku pelanggaran",
+        "6. Bukti fisik pelanggaran"
+      ]
+    },
+    {
+      "tag": "kategori_laporan_masalah",
+      "patterns": [
+        "Apa saja kategori permasalahan yang ada dalam dunia pendidikan?"
+      ],
+      "responses": [
+        "1. Ketersediaan Dana Pendidikan yang Terbatas",
+        "2. Bahan Ajar Mengajar Minimum",
+        "3. Sarana dan Prasarana Kurang Memadai",
+        "4. Jumlah Guru yang Terampil Masih Terbatas"
+      ]
+    }
+  ]
+}
